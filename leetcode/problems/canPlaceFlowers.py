@@ -1,4 +1,5 @@
 import math
+
 class Solution:
     def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
         length = len(flowerbed)
