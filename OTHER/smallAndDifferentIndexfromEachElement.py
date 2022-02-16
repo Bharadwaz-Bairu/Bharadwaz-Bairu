@@ -1,3 +1,14 @@
+'''
+In this program what we are doing is if the smallest element has the same index
+with the other one in the ans dictionary then we are replacing the smallest element
+with the biggest element in the array and thus we get the values of smallest elements from each line consecutively and 
+solution is continued
+
+
+
+'''
+
+
 def solve(arr):
     ans = {arr[0].index(min(arr[0])):min(arr[0])}
     for i in range(1,len(arr)):
